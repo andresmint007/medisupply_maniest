@@ -37,3 +37,7 @@ spec:
           value: "InventarioRecibido"
         - name: PulsarSettings__SubscriptionName
           value: "inventario-sub"
+        - name: KafkaSettings__BootstrapServers
+          value: "kafka-supply-broker.kafka-broker.svc.cluster.local:9092"
+        - name: KafkaSettings__Topic
+          value: "InventarioRecibido"
